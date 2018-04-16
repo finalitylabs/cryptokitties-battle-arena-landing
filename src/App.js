@@ -9,6 +9,8 @@ class App extends Component {
           <div className='space'></div>
           <div className='App-logo'></div>
           <div className='ground'></div>
+          <div className='kittyfront'></div>
+          <div className='kittyback'></div>
           <div className='content-main'></div>
       </div>
     );

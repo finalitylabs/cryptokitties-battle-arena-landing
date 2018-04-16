@@ -49,6 +49,32 @@
   z-index: 99;
 }
 
+.kittyfront {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 10vw;
+  top: 60vh;
+  background-image: url('./Assets/catfront.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 80;
+  
+}
+
+.kittyback {
+  position: absolute;
+  height: 700px;
+  width: 700px;
+  left: 75vw;
+  top: 50vh;
+  background-image: url('./Assets/catback.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 105;
+
+}
+
 .App-header {
   background-color: white;
   height: 150px;
