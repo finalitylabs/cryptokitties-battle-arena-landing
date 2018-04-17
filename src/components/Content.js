@@ -23,7 +23,7 @@ export default Content;
 let styles = {
     content: {
         position: 'absolute',
-        color: '#232323',
+        color: 'white',
         top: '7.5em',
         fontSize: '1.4em',
         alignSelf: 'center',

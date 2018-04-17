@@ -17,8 +17,8 @@ let styles = {
         alignSelf: 'center',
         height: '70vh',
         width: '60vw',
-        background: 'white',
-        opacity: 0.8,
+        background: '#232323',
+        opacity: 0.6,
         zIndex: 99,
       }
 }

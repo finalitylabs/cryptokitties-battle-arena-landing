@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import groundImg from '../Assets/ground.png';
+import groundImg from '../Assets/ground2.png';
 
 class Ground extends Component {
     render() {
@@ -17,12 +17,12 @@ export default Ground;
 let styles = {
     ground : {
         position: 'fixed',
-        bottom: '-80px',
+        bottom: -800,
         backgroundImage: `url(${groundImg})`,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        width: '100%',
-        height: '100%',
+        backgroundSize: 'contain',
+        width: 1920,
+        height: 1080,
         zIndex: 5,
       }
 }
