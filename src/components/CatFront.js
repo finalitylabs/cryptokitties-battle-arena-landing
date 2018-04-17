@@ -19,7 +19,7 @@ let styles = {
         position: 'absolute',
         height: '200px',
         width: '200px',
-        left: '10vw',
+        left: '5vw',
         top: '60vh',
         backgroundImage: `url(${catFront})`,
         backgroundSize: 'contain',

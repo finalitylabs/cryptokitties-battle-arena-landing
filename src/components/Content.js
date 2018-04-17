@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 
+
 class Content extends Component {
     render() {
         return (
-            <div style={styles.content}>
-               <p>orem ipsum dolor sit amet, no soluta expetendis pri, magna omnes labitur nam at. Esse aeque in pro, integre erroribus ne est. Evertitur quaerendum ius id. Et nec option oportere, iriure gubergren id eos. Stet dicta nam in, sonet viris id vix. Amet iudico forensibus at quo, fuisset alienum pertinacia mei et. Zril accusamus tincidunt in quo, posse nostrud utroque vel ne.
+            <div style={styles.content}
+                 id="content">
+            
+                <h1>CryptoKitties Battle Arena</h1>
+                <p>Lorem ipsum dolor sit amet, no soluta expetendis pri, magna omnes labitur nam at. Esse aeque in pro, integre erroribus ne est. Evertitur quaerendum ius id. Et nec option oportere, iriure gubergren id eos. Stet dicta nam in, sonet viris id vix. Amet iudico forensibus at quo, fuisset alienum pertinacia mei et. Zril accusamus tincidunt in quo, posse nostrud utroque vel ne.
 
 Ea altera bonorum sit, vel ne prompta deserunt maluisset. Mel quidam salutandi concludaturque ne, elit ferri et sea, usu ne tollit aliquam feugait. Saperet dolores constituam vim no, brute animal definitiones qui ex. An mea homero ancillae pertinax, usu pertinax facilisis ullamcorper ei, at velit mentitum est. Pro eu verear nonumes reprimique, eu vel decore accusata, congue quodsi nonumes cu ius.
 
@@ -23,13 +27,18 @@ export default Content;
 let styles = {
     content: {
         position: 'absolute',
-        color: 'white',
+        borderRadius: 10,
+        paddingLeft: 50,
+        paddingRight: 50,
+        color: '#000',
+        
         top: '7.5em',
         fontSize: '1.4em',
         alignSelf: 'center',
         height: '60vh',
         width: '50vw',
-        zIndex: 999,
+        zIndex: 888,
+        
         overflow: 'scroll',
       }
 }

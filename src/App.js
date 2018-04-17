@@ -5,17 +5,20 @@ import Space from './components/Space';
 import Ground from './components/Ground';
 import CatFront from './components/CatFront';
 import CatBack from './components/CatBack';
-import ContentBox from './components/ContentBox';
 import Content from './components/Content';
 import Logo from './components/Logo';
+import ContentBox from './components/ContentBox';
+
 
 class App extends Component {
+
+  
   render() {
     return (
       <div style={styles.app}>
-          <Space />
-          <Ground />
           <Logo />
+          <Space />          
+          <Ground />
           <CatFront />
           <CatBack />
           <ContentBox />

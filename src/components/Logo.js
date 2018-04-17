@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-import logoImg from '../Assets/logo.png'
+import logo from '../Assets/black_cat.png';
 
 class Logo extends Component {
     render() {
         return (
-            <div style={styles.logo}>
-                
+            <div style={styles.logoStyle}>
+                <img src={logo}
+                     style={styles.imgStyle} />
             </div>
         );
     }
@@ -15,13 +16,20 @@ class Logo extends Component {
 export default Logo;
 
 let styles = {
-    logo :{
-        backgroundImage: `url(${logoImg})`,
-        backgroundSize: 'contain',
+    logoStyle: {
+        display: 'flex',
+        flexDirection: 'column',
+        position: 'absolute',
+        zIndex: 999,
+        top: '8vh',    
+        height: 128,
+        width: '100%',
+    
+    },
+    imgStyle: {
         alignSelf: 'center',
-        height: '80px',
-        width: '80px',
-        marginTop: '4em',
-        zIndex: 100,
-      }
+        height: 128,
+        width: 128,
+        
+    }
 }
