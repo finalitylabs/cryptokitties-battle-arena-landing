@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import catFront from '../Assets/catfront.png';
+import catFront from '../Assets/genesis.png';
 
 class CatFront extends Component {
     render() {
@@ -17,10 +17,9 @@ export default CatFront;
 let styles = {
     kittyfront :{
         position: 'absolute',
-        height: '200px',
-        width: '200px',
-        left: '5vw',
-        top: '60vh',
+        height: '400px',
+        width: '400px',
+        top: '40vh',
         backgroundImage: `url(${catFront})`,
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',

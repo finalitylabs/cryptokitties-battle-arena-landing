@@ -9,10 +9,8 @@ import Content from './components/Content';
 import Logo from './components/Logo';
 import ContentBox from './components/ContentBox';
 
-
 class App extends Component {
 
-  
   render() {
     return (
       <div style={styles.app}>
@@ -40,5 +38,7 @@ let styles = {
     
   }
 }
+
+
 
 

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import groundImg from '../Assets/ground.png';
-
 class Ground extends Component {
     render() {
         return (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import catBack from '../Assets/catback.png';
+import catBack from '../Assets/sailor_cat.png';
 
 class CatBack extends Component {
     render() {
@@ -17,14 +17,14 @@ export default CatBack;
 let styles = {
     kittyback :{
         position: 'absolute',
-        height: '700px',
-        width: '700px',
-        left: '75vw',
-        top: '50vh',
+        height: '1000px',
+        width: '1000px',
+        left: '55vw',
+        top: '30vh',
         backgroundImage: `url(${catBack})`,
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
-        zIndex: 105,
+        zIndex: 1050,
       
       }
 }

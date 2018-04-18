@@ -20,6 +20,7 @@ let styles = {
         paddingRight: 50,
         color: '#000',
         border: '5px solid black',
+        boxShadow: '2px 2px 20px 5px rgba(0,0,0,0.2)',
         top: '7.5em',
         fontSize: '1.4em',
         alignSelf: 'center',
