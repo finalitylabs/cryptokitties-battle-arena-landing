@@ -13,6 +13,6 @@ export const CatBackStyled = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1050;
-    animation: 500ms ${fadeInRightAnimation};
+    animation: 800ms ${fadeInRightAnimation};
 `;
 
