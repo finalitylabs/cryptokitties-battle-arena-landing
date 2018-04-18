@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import catFront from '../Assets/genesis.png';
+import catFront from '../../Assets/genesis.png';
 
 class CatFront extends Component {
     render() {

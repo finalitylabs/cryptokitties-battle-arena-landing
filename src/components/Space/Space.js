@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import space from '../Assets/space.png';
+import space from '../../Assets/space.png';
 
 class Space extends Component {
     render() {
