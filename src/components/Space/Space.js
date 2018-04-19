@@ -8,10 +8,10 @@ import { SpaceStyled } from './Space.style';
 class Space extends Component {
     render() {
         return (
-            <div>
+            
                 <SpaceStyled />
-                
-            </div>
+                    
+            
         );
     }
 }

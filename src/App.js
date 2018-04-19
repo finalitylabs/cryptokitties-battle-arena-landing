@@ -7,36 +7,29 @@ import CatBack from './components/CatBack/CatBack';
 import Content from './components/Content/Content';
 import Logo from './components/Logo/Logo';
 import ContentBox from './components/ContentBox/ContentBox';
+import { AppStyled } from './App.style';
+import Social from './components/Social/Social';
 
 class App extends Component {
 
   render() {
     return (
-      <div style={styles.app}>
+      <AppStyled>
           <Logo />
-          <Space />          
+          <Space />         
           <Ground />
           <CatFront />
           <CatBack />
           <ContentBox />
           <Content />
-          
-      </div>
+          <Social />
+      </AppStyled>
     );
   }
 }
 
 export default App;
 
-let styles = {
-  app :{
-    display: 'flex',
-    flexDirection: 'column',
-    textAlign: 'center',
-    justifyContent: 'center', 
-    
-  }
-}
 
 
 

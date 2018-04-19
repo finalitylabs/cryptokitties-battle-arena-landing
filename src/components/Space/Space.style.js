@@ -9,6 +9,7 @@ const starMove = keyframes`
     }
 `;
 
+
 export const SpaceStyled = styled.div`
     height: 100vh;
     width: 10000vw;
@@ -17,3 +18,4 @@ export const SpaceStyled = styled.div`
     background-size: contain;
     animation: 10000s linear infinite ${starMove};
 `;
+
