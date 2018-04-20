@@ -12,7 +12,7 @@ const planetMove = keyframes`
 
 export const PlanetStyled = styled.div`
     position: fixed;
-    left: 70vw;
+    left: 100vw;
     top: 40vh;
     height: 60vh;
     width: 60vw;
