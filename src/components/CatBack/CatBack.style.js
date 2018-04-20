@@ -3,6 +3,19 @@ import { fadeInRight } from 'react-animations';
 
 const fadeInRightAnimation = keyframes`${fadeInRight}`;
 
+const bounce = keyframes`
+    0% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(2px);
+    }
+
+    100% {
+        transform: translateY(-2px);
+    }
+`;
+
 export const CatBackStyled = styled.div`
     position: absolute;
     height: 1000px;
@@ -13,6 +26,8 @@ export const CatBackStyled = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1050;
-    animation: 800ms ${fadeInRightAnimation};
+    animation: 1s ${bounce} ease infinite, 1600ms ${fadeInRightAnimation};
+
+
 `;
 

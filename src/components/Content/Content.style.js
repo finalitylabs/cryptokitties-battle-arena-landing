@@ -9,7 +9,7 @@ export const ContentStyled = styled.div`
     padding-left: 5;
     padding-right: 5;
     color: #000;
-
+    text-align: left;
     top: 7.5em;
     font-size: 1.4em;
     align-self: center;
@@ -18,5 +18,9 @@ export const ContentStyled = styled.div`
     z-index: 888;
     overflow: scroll;
     animation: 2s ${fadeInAnimation};
+
+    h1 {
+        text-align: center;
+    }
     
 `;

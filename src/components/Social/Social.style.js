@@ -9,9 +9,15 @@ export const SocialStyled = styled.div`
     height: 50px;
     width: 400px;
     z-index: 1999;
+    cursor: pointer;
 
     div {
         flex: 1;
-        cursor: pointer;
+        
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
     }
 `;

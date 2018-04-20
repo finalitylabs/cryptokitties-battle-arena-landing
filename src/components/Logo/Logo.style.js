@@ -18,5 +18,5 @@ export const LogoStyled = styled.div`
     align-self: center;
     height: 128px;
     width: 128px;
-    animation: 500ms ${fadeInDownAnimation};
+    animation: 700ms ${fadeInDownAnimation};
 `;

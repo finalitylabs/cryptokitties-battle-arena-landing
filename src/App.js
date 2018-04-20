@@ -9,6 +9,7 @@ import Logo from './components/Logo/Logo';
 import ContentBox from './components/ContentBox/ContentBox';
 import { AppStyled } from './App.style';
 import Social from './components/Social/Social';
+import Planet from './components/Planet/Planet';
 
 class App extends Component {
 
@@ -16,7 +17,8 @@ class App extends Component {
     return (
       <AppStyled>
           <Logo />
-          <Space />         
+          <Space /> 
+          <Planet />        
           <Ground />
           <CatFront />
           <CatBack />
