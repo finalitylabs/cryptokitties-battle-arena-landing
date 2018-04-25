@@ -2,7 +2,7 @@
   "name": "ckba-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://finalitylabs.github.io/cryptokitties-battle-arena-landing",
+  "homepage": "https://finalitylabs.github.io/cryptokitties-battle-arena-landing",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "jquery": "^3.3.1",
