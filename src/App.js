@@ -23,7 +23,6 @@ class App extends Component {
           <CatFront />
           <CatBack />
           <ContentBox />
-          <Content />
           <Social />
       </AppStyled>
     );

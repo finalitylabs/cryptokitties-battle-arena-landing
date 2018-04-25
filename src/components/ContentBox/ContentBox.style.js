@@ -11,14 +11,21 @@ export const ContentBoxStyled = styled.div`
     color: #000;
     border: 5px solid black;
     box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.2);
-    top: 7.5em;
+    top: 7em;
     font-size: 1.4em;
     align-self: center;
-    height: 60vh;
+    height: 65vh;
     width: 50vw;
     z-index: 888;
     background: white;
     overflow: scroll;
     animation: 2s ${fadeInAnimation};
+
+    p {
+        margin-top: 3em;
+        padding: 30px;
+        text-align: left;
+
+    }
     
 `;

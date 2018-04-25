@@ -7,7 +7,6 @@ class Content extends Component {
         return (
             <ContentStyled>
             
-                <h1>CryptoKitties Battle Arena</h1>
                 <p>Lorem ipsum dolor sit amet, no soluta expetendis pri, magna omnes labitur nam at. Esse aeque in pro, integre erroribus ne est. Evertitur quaerendum ius id. Et nec option oportere, iriure gubergren id eos. Stet dicta nam in, sonet viris id vix. Amet iudico forensibus at quo, fuisset alienum pertinacia mei et. Zril accusamus tincidunt in quo, posse nostrud utroque vel ne.
 
                 Ea altera bonorum sit, vel ne prompta deserunt maluisset. Mel quidam salutandi concludaturque ne, elit ferri et sea, usu ne tollit aliquam feugait. Saperet dolores constituam vim no, brute animal definitiones qui ex. An mea homero ancillae pertinax, usu pertinax facilisis ullamcorper ei, at velit mentitum est. Pro eu verear nonumes reprimique, eu vel decore accusata, congue quodsi nonumes cu ius.

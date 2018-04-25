@@ -10,7 +10,7 @@ export const ContentStyled = styled.div`
     padding-right: 5;
     color: #000;
     text-align: left;
-    top: 7.5em;
+    top: 8em;
     font-size: 1.4em;
     align-self: center;
     height: 60vh;
