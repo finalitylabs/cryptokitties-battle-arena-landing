@@ -6,6 +6,8 @@ export const GroundStyled = styled.div`
     height: 25vh;
     bottom: 0px;
     border-top: 10px solid black;
-    background-image: radial-gradient(ellipse at top, #2FEC86 -100%, #fff 100%);
+    background-image: radial-gradient(ellipse at top, cyan -75%, #fff 100%);
     z-index: 5;
 `;
+
+//#2FEC86

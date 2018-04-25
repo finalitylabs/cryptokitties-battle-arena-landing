@@ -9,14 +9,12 @@ export const LogoStyled = styled.div`
     flex-direction: column;
     position: absolute;
     z-index: 999;
-    top: 8vh;   
-    height: 128;
+    top: -4vh;   
     width: 100%;
     }
 
     img {
     align-self: center;
-    height: 128px;
-    width: 128px;
+    width: 350px;
     animation: 700ms ${fadeInDownAnimation};
 `;

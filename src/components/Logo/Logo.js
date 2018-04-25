@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 import { LogoStyled } from './Logo.style';
-import logo from '../../Assets/cat_paw.png'
+import logo from '../../Assets/logo.png'
 
 
 class Logo extends Component {
     render() {
         return (
             <LogoStyled>
-                <img src={logo}/>
+                <img src={logo} alt='logo' width=''/>
             </LogoStyled>
         );
     }
