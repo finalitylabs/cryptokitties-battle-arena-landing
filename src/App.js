@@ -4,7 +4,6 @@ import Space from './components/Space/Space';
 import Ground from './components/Ground/Ground';
 import CatFront from './components/CatFront/CatFront';
 import CatBack from './components/CatBack/CatBack';
-import Content from './components/Content/Content';
 import Logo from './components/Logo/Logo';
 import ContentBox from './components/ContentBox/ContentBox';
 import { AppStyled } from './App.style';

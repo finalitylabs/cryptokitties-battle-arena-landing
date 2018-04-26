@@ -5,7 +5,7 @@ const planetMove = keyframes`
         transform: translateX(0%);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-250%);
     }
 `;
 
@@ -19,5 +19,5 @@ export const PlanetStyled = styled.div`
     background-image: url(${require('../../Assets/pluto.png')});
     background-repeat: no-repeat;
     z-index: -500;
-    animation: 200s linear infinite ${planetMove};
+    animation: 300s linear infinite ${planetMove};
 `;
