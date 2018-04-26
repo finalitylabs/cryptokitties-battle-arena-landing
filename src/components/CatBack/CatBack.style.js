@@ -1,5 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight } from 'react-animations';
+import media from '../../themes/media'
+
 
 const fadeInRightAnimation = keyframes`${fadeInRight}`;
 
@@ -28,6 +30,8 @@ export const CatBackStyled = styled.div`
     z-index: 1050;
     animation: 1s ${bounce} ease infinite, 1600ms ${fadeInRightAnimation};
 
-
+    ${media.tablet`
+        display: none;
+    `}
 `;
 

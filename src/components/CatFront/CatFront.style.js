@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import { fadeInLeft } from 'react-animations';
+import media from '../../themes/media';
 
 
 const fadeInLeftAnimation = keyframes`${fadeInLeft}`;
@@ -27,4 +28,8 @@ export const CatFrontStyled = styled.div`
     background-repeat: no-repeat;
     z-index: 80;
     animation: 1s ${bounce} ease infinite, 2s ${fadeInLeftAnimation};
+
+    ${media.tablet`
+        display: none;
+    `}
 `;

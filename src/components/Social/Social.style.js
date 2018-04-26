@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from '../../themes/media';
 
 export const SocialStyled = styled.div`
     display: flex;
@@ -20,4 +21,19 @@ export const SocialStyled = styled.div`
             transform: translateY(-5px);
         }
     }
+
+    ${media.tablet`
+        position: fixed;
+        
+        width: 300px;
+        left: 50%;
+        margin-left: -150px;
+
+        div{
+            flex: 3;
+            height: 100%;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+    `}
 `;

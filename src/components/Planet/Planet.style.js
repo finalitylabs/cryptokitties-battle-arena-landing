@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import media from '../../themes/media'
 
 const planetMove = keyframes`
     from {
@@ -20,4 +21,8 @@ export const PlanetStyled = styled.div`
     background-repeat: no-repeat;
     z-index: -500;
     animation: 300s linear infinite ${planetMove};
+
+    ${media.phone`
+        display: none;
+    `}
 `;

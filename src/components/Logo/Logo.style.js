@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import { fadeInDown } from 'react-animations';
+import media from '../../themes/media';
 
 
 const fadeInDownAnimation = keyframes`${fadeInDown}`;
@@ -17,4 +18,10 @@ export const LogoStyled = styled.div`
     align-self: center;
     width: 400px;
     animation: 700ms ${fadeInDownAnimation};
+
+    ${media.phone`
+            align-self: center;
+            width: 400px;
+        
+    `}
 `;

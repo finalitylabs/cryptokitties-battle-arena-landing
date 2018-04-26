@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import media from '../../themes/media';
 
 
 export const ContentBoxStyled = styled.div`
@@ -22,8 +23,22 @@ export const ContentBoxStyled = styled.div`
     p {
         margin-top: 1.5em;
         padding: 20px;
-        text-align: left;
-        
+        text-align: left; 
     }
+
+    ${media.tablet`
+        width: 60vw;
+        height: 60vh;
+    `
+    }
+
+    ${media.phone`
+        font-size: 1em;
+        width: 80%;
+        height: 60%;
+        padding: 0px;
+        padding-top: 3em;
+        margin: 0px;
+    `}
     
 `;
