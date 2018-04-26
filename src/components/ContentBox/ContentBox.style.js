@@ -1,7 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import { fadeIn } from 'react-animations';
 
-const fadeInAnimation = keyframes`${fadeIn}`;
 
 export const ContentBoxStyled = styled.div`
     position: absolute;
@@ -19,13 +17,13 @@ export const ContentBoxStyled = styled.div`
     z-index: 888;
     background: white;
     overflow: scroll;
-    animation: 2s ${fadeInAnimation};
+    
 
     p {
         margin-top: 1.5em;
         padding: 20px;
         text-align: left;
-
+        
     }
     
 `;

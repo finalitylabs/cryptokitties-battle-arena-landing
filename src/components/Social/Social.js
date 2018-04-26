@@ -20,7 +20,7 @@ class Social extends Component {
                 </div>
                 <div>
                     <a href='mailto:team@finalitylabs.co'>
-                        <img src={email} alt='' width='30px'/>
+                        <img src={email} alt='' width='40px'/>
                     </a>
                 </div>
                 <div>
